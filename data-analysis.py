@@ -29,7 +29,7 @@ for idx, col in enumerate(dataset.columns):
 
     ax.set_title(col)
 
-# hide nith subplot
+# hide ninth subplot
 plt.subplot(3, 3, 9).set_visible(False)
 
 plt.show()
