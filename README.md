@@ -59,3 +59,8 @@ The dataset has been split into training (```80%```) and testing (```20%```) spl
 Once trained, the model was able to achieve ```96.74%``` accuracy on the training set and ```70.13%``` accuracy on the testing set.
 
 ### Confusion Matrix
+![Pima Indians Diabetes Database Confusion Matrix](https://i.imgur.com/MWchEdh.png)
+* In the case of diabetes prediction, false-negatives are the least desirable outcome as it would result in patients being informed that they will not develop diabetes when in fact they may.
+
+### ROC Curve
+![Pima Indians Diabetes Database ROC Curve](https://i.imgur.com/xkVhOlx.png)
