@@ -60,3 +60,4 @@ Once trained, the model was able to achieve ```96.74%``` accuracy on the trainin
 
 ### Confusion Matrix
 ![Pima Indians Diabetes Database Confusion Matrix](https://i.imgur.com/MWchEdh.png)
+* In the case of diabetes prediction, false-negatives are the least desirable outcome as it would result in patients being informed that they will not develop diabetes when in fact they may.
