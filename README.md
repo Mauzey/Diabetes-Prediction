@@ -53,4 +53,9 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
 * The values for ```Outcome``` have been copied from the original dataset as they do not require standardization
 
 ### Data Splits
-The dataset has been split into training (80%) and testing (20%) splits. The training set has then been further divided into training (80%) and validation (20%) splits.
+The dataset has been split into training (```80%```) and testing (```20%```) splits. The training set has then been further divided into training (```80%```) and validation (```20%```) splits.
+
+## Results
+Once trained, the model was able to achieve ```96.74%``` accuracy on the training set and ```70.13%``` accuracy on the testing set.
+
+### Confusion Matrix
