@@ -11,7 +11,7 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
 
 ## Data Analysis
 ### Histograms
-![Pima Indians Diabetes Database Histograms](https://i.imgur.com/8EtFIWH.png)
+![Pima Indians Diabetes Database Histograms](https://i.imgur.com/htXtzS1.png)
 *Note: 'outcome' refers to whether an individual does, or does not, have diabetes*
 
 #### Insights
@@ -28,7 +28,7 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
   * ...this data-set is therefore not representative of the global population, which is to be expected due to its nature
 
 ### Density Plots
-![Pima Indians Diabetes Database Density Plots](https://i.imgur.com/KxzKKTu.png)
+![Pima Indians Diabetes Database Density Plots](https://i.imgur.com/jmuAZt0.png)
 
 #### Insights
 * ```Glucose```, ```BMI```, and ```Age``` appear to be the strongest predicting values for those with diabetes
