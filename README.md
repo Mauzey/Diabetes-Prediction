@@ -17,9 +17,9 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
 #### Insights
 * Variables are on different scales, and therefore must be standardised
 * The majority of data has been collected from individuals between 20 and 30 years of age
-* BMI, Blood Pressure, and Glucose Concentration are normally distributed
+* ```BMI```, ```Blood Pressure```, and ```Glucose``` are normally distributed
   * This is to be expected when such statistics are collected from a population
-* It is impossible for for BMI, Blood Pressure, and Glucose Concentration to have a value of zero
+* It is impossible for for ```BMI```, ```Blood Pressure```, and ```Glucose``` to have a value of zero
   * Missing or incomplete data?
 * Certain individuals have had up to 15 pregnancies
   * While not implausible, this information should still be considered
@@ -31,5 +31,16 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
 ![Pima Indians Diabetes Database Density Plots](https://i.imgur.com/KxzKKTu.png)
 
 #### Insights
-* Glucose Concentration, BMI, and Age appear to be the strongest predicting values for those with diabetes
-* Blood Pressure and Skin Thickness do not appear to have a significant correlation with the distribution of diabetic and non-diabetic individuals
+* ```Glucose```, ```BMI```, and ```Age``` appear to be the strongest predicting values for those with diabetes
+* ```Blood Pressure``` and ```Skin Thickness``` do not appear to have a significant correlation with the distribution of diabetic and non-diabetic individuals
+
+### Missing or Incomplete Values
+#### Statistical Summary
+![Pima Indians Diabetes Database Statistical Summary](https://i.imgur.com/yZN89GB.png)
+* There are 768 entries
+* ```Pregnancies```, ```Glucose Concentration```, ```Blood Pressure```, ```Skin Thickness```, ```Insulin```, and ```BMI``` appear to have a minimum value of zero. This indicates missing values
+
+#### Number of Missing Values
+![Pima Indians Diabetes Database No. of Missing Values](https://i.imgur.com/Q7meZol.png)
+* There is a significant number of missing values. Most notably: a large number of entries for ```Insulin``` and ```Skin Thickness``` are missing
+* The missing values were determined by searching for entries with a value of zero, therefore ```Pregnancies``` can be ignored as an individual with zero pregnancies is perfectly valid
