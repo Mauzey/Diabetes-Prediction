@@ -56,3 +56,27 @@ scores = model.evaluate(xTrain, yTrain, verbose=False)
 print("Training Accuracy: %.2f%%\n" % (scores[1] * 100))
 scores = model.evaluate(xTest, yTest, verbose=False)
 print("Testing Accuracy: %.2f%%\n" % (scores[1] * 100))
+
+# confusion matrix
+yTestPredict = model.predict_classes(xTest)
+cMatrix = confusion_matrix(yTest, yTestPredict)
+
+ax = sns.heatmap(cMatrix, annot=True, xticklabels=['No Diabetes', 'Diabetes'], yticklabels=['NoDiabetes', 'Diabetes'], cbar=False, cmap='Blues')
+ax.set_xlabel("Predicted Value")
+ax.set_ylabel("Actual Value")
+
+plt.show()
+plt.clf()
+
+# ROC curve
+yTestPredictProbability = model.predict(xTest)
+FPR, TPR, _ = roc_curve(yTest, yTestPredictProbability)
+
+plt.plot(FPR, TPR)
+plt.plot([0,1], [0,1], '--', color='black')
+plt.title('ROC Curve')
+plt.xlabel('False-Positive Rate')
+plt.ylabel('True-Positive Rate')
+
+plt.show()
+plt.clf()
