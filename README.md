@@ -30,4 +30,5 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
 ![Pima Indians Diabetes Database Density Plots](https://i.imgur.com/KxzKKTu.png)
 
 #### Insights
-* 
+* Glucose Concentration, BMI, and Age appear to be the strongest predicting values for those with diabetes
+* Blood Pressure and Skin Thickness do not appear to have a significant correlation with the distribution of diabetic and non-diabetic individuals
