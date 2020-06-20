@@ -59,3 +59,4 @@ The dataset has been split into training (```80%```) and testing (```20%```) spl
 Once trained, the model was able to achieve ```96.74%``` accuracy on the training set and ```70.13%``` accuracy on the testing set.
 
 ### Confusion Matrix
+![Pima Indians Diabetes Database Confusion Matrix](https://i.imgur.com/MWchEdh.png)
