@@ -15,6 +15,7 @@ A multi-layer perceptron which predicts whether an individual is susceptible to 
 *Note: 'outcome' refers to whether an individual does, or does not, have diabetes*
 
 #### Insights
+* Variables are on different scales, and therefore must be standardised
 * The majority of data has been collected from individuals between 20 and 30 years of age
 * BMI, Blood Pressure, and Glucose Concentration are normally distributed
   * This is to be expected when such statistics are collected from a population
